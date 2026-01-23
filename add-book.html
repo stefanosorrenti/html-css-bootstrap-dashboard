@@ -69,10 +69,58 @@
         <div class="container">
             <!-- Form Title-->
             <section>
-                <h1 class="fs-1">Nuovo Libro</h1>
+                <h1 class="fs-1 my-4">Nuovo Libro</h1>
             </section>
 
-            
+            <!--Layouts-->
+
+            <!--Main Row-->
+            <div class="row">
+                <!--Form Elements-->
+
+                <!--Author's name-->
+                <div class="col-12">
+                    <label class="form-label fs-4" for="Name">Nome autore</label>
+                    <input type="text" class="form-control form-control-lg" name="Nome Autore" id="Name"
+                        placeholder="Inserici il nome dell'autore">
+                </div>
+                <!--Author's surname-->
+                <div class="col-12">
+                    <label class="form-label fs-4" for="surname">Cognome Autore</label>
+                    <input type="text" class="form-control form-control-lg" name="Cognome Autore" id="surname"
+                        placeholder="Inserisci il cognome">
+                </div>
+                <!--Title in Italian-->
+                <div class="col-12">
+                    <label class="form-label fs-4" for="italiantitle">Titolo</label>
+                    <input type="text" class="form-control form-control-lg" name="Titolo in italiano" id="italiantitle"
+                        aria-describedby="titoloversioneitaliana" placeholder="Inserisci il titolo del libro">
+                    <!--Subtitle-->
+                    <div id="titoloversioneitaliana" class="form-text">Titolo versione Italiana</div>
+                </div>
+                <!--Select the genre-->
+                <div class="col-12">
+                    <label class="form-label fs-4" for="select">Genere</label>
+                    <select class="form-select form-select-lg" name="Genere" id="select">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Gore</option>
+                        <option value="2">Splatter</option>
+                        <option value="3">Horror</option>
+                    </select>
+                </div>
+                <!--Year of pubblication-->
+                <div class="col-12">
+                    <label class="form-label fs-4" for="yearofpublication">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control form-control-lg" name="Anno di pubblicazione"
+                        id="yearofpublication" placeholder="Inserisci l'anno">
+                </div>
+                <!--IBSN CODE-->
+                <div class="col-12">
+                    <label class="form-label fs-4" for="ibsncode">IBSN#</label>
+                    <input type="text" class="form-control form-control-lg" name="IBSN" id="ibsncode"
+                        placeholder="Inserisci il codice IBSN#">
+                </div>
+            </div>
     </main>
     </div>
 
